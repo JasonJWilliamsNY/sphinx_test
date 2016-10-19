@@ -1,7 +1,11 @@
+.. image:: ./img/cyverse_rgb.jpg
+	:width: 500 px
+
+
 Tutorial Name
 =============
 
---------------
+
 
 Goal
 ----
@@ -37,20 +41,28 @@ Platform and tools
 +-----------+------------+-------+-------------------------+
 | Platform  | Interface  | Link  | Platform Documentation  |
 +===========+============+=======+=========================+
-| Discovery | Web        | https | `Manual <https://pods.i |
-| Environme | (Point-and | ://de | plantcollaborative.org/ |
-| nt        | -click)    | .ipla | wiki/display/DEmanual/T |
-|           |            | ntcol | able+of+Contents>`__    |
-|           |            | labor |                         |
-|           |            | ative |                         |
-|           |            | .org/ |                         |
-|           |            | de/   |                         |
+| Discovery | Web        | `http | `Manual <https://pods.i |
+| Environme | (Point-and | s://d | plantcollaborative.org/ |
+| nt        | -click)    | e.ipl | wiki/display/DEmanual/T |
+|           |            | antco | able+of+Contents>`__    |
+|           |            | llabo |                         |
+|           |            | rativ |                         |
+|           |            | e.org |                         |
+|           |            | /de/  |                         |
+|           |            | <http |                         |
+|           |            | s://d |                         |
+|           |            | e.ipl |                         |
+|           |            | antco |                         |
+|           |            | llabo |                         |
+|           |            | rativ |                         |
+|           |            | e.org |                         |
+|           |            | />`__ |                         |
 +-----------+------------+-------+-------------------------+
-| Atmospher | Command-li | https | `Manual <https://pods.i |
-| e         | ne         | ://at | plantcollaborative.org/ |
-|           | AND/OR     | mo.cy | wiki/display/atmman/Atm |
-|           | VNC/Deskto | verse | osphere+Manual+Table+of |
-|           | p          | .org  | +Contents>`__           |
+| Atmospher | Command-li | [http | `Manual <https://pods.i |
+| e         | ne         | s://a | plantcollaborative.org/ |
+|           | AND/OR     | tmo.c | wiki/display/atmman/Atm |
+|           | VNC/Deskto | yvers | osphere+Manual+Table+of |
+|           | p          | e.org | +Contents>`__           |
 |           | (Point-and |       |                         |
 |           | -click)    |       |                         |
 +-----------+------------+-------+-------------------------+
@@ -66,12 +78,10 @@ Platform and tools
 |           |            | servi |                         |
 |           |            | ce/   |                         |
 +-----------+------------+-------+-------------------------+
-| Agave API | Web,       | `http | `Documentation          |
-|           | Command-li | s://a | website <https://agavea |
-|           | ne         | gavea | pi.co/>`__              |
-|           |            | pi.co |                         |
-|           |            | / <>` |                         |
-|           |            | __    |                         |
+| Agave API | Web,       | https | `Documentation          |
+|           | Command-li | ://ag | website <https://agavea |
+|           | ne         | aveap | pi.co/>`__              |
+|           |            | i.co/ |                         |
 +-----------+------------+-------+-------------------------+
 
 **Discovery Environment App(s):**
@@ -104,6 +114,14 @@ Platform and tools
 Overview
 --------
 
+.. raw:: html
+
+   <!---
+   Text and workflow image go here
+   --->
+   
+.. image:: ./img/workflow.png
+
 --------------
 
 Directions
@@ -127,7 +145,7 @@ Directions
    3. Buttons and key words in bold:
        "Click on **Apps**" or "Select **Arabidopsis**"
 
-   4. App accordian menu titles in double quotes
+   4. App accordion menu titles in double quotes
 
    5. App header description in single quotes
 
@@ -136,19 +154,22 @@ Directions
 Subsection 1 name
 ~~~~~~~~~~~~~~~~~
 
-Subsection 2 name
-~~~~~~~~~~~~~~~~~
+| **Task:**
+| 
 
-Subsection 3 name
-~~~~~~~~~~~~~~~~~
+**Inputs outputs:**
 
-Subsection 4 name
-~~~~~~~~~~~~~~~~~
++--------+---------------+-----------------+
+| File   | Description   | Example input   |
++========+===============+=================+
+|        |               |                 |
++--------+---------------+-----------------+
 
---------------
+.. raw:: html
 
-Results
--------
+   <!---
+   Steps and text go here
+   --->
 
 **Expected outputs:**
 
@@ -158,7 +179,108 @@ Results
 |        |               |                  |
 +--------+---------------+------------------+
 
-**Summary**
+--------------
+
+Subsection 2 name
+~~~~~~~~~~~~~~~~~
+
+| **Task:**
+| 
+
+**Inputs outputs:**
+
++--------+---------------+-----------------+
+| File   | Description   | Example input   |
++========+===============+=================+
+|        |               |                 |
++--------+---------------+-----------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+**Expected outputs:**
+
++--------+---------------+------------------+
+| File   | Description   | Example output   |
++========+===============+==================+
+|        |               |                  |
++--------+---------------+------------------+
+
+--------------
+
+Subsection 3 name
+~~~~~~~~~~~~~~~~~
+
+| **Task:**
+| 
+
+**Inputs outputs:**
+
++--------+---------------+-----------------+
+| File   | Description   | Example input   |
++========+===============+=================+
+|        |               |                 |
++--------+---------------+-----------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+**Expected outputs:**
+
++--------+---------------+------------------+
+| File   | Description   | Example output   |
++========+===============+==================+
+|        |               |                  |
++--------+---------------+------------------+
+
+--------------
+
+Subsection 4 name
+~~~~~~~~~~~~~~~~~
+
+| **Task:**
+| 
+
+**Inputs outputs:**
+
++--------+---------------+-----------------+
+| File   | Description   | Example input   |
++========+===============+=================+
+|        |               |                 |
++--------+---------------+-----------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+**Expected outputs:**
+
++--------+---------------+------------------+
+| File   | Description   | Example output   |
++========+===============+==================+
+|        |               |                  |
++--------+---------------+------------------+
+
+--------------
+
+Summary
+-------
+
+.. raw:: html
+
+   <!---
+   Summary and example figures
+   --->
+
+**Next Steps:**
 
 --------------
 

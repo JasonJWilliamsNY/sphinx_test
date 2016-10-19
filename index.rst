@@ -1,10 +1,11 @@
 .. image:: ./img/cyverse_rgb.jpg
+	:width: 500 px
 
 
 Tutorial Name
 =============
 
---------------
+
 
 Goal
 ----
