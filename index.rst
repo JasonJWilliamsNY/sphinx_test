@@ -1,4 +1,4 @@
-|image 0|
+\|CyVerse logo\|
 
 Tutorial Name
 =============
@@ -9,17 +9,20 @@ Goal
 .. raw:: html
 
    <!---
-   A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial
+   Avoid covering upstream and downstream steps that are not explicitly and necessarily part of the tutorial - write or link to separate quick starts/tutorials for those parts
    --->
-
-Prerequisites and example data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
    <!---
-   Short description
+   A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial
    --->
+
+Prerequisites
+-------------
+
+Input and example data
+~~~~~~~~~~~~~~~~~~~~~~
 
 *In order to complete this tutorial you will need to have the following
 inputs prepared*
@@ -27,7 +30,14 @@ inputs prepared*
 +-----------------+----------+---------------------+----------------+
 | Input file(s)   | Format   | Preparation/Notes   | Example data   |
 +=================+==========+=====================+================+
+|                 |          |                     |                |
 +-----------------+----------+---------------------+----------------+
+
+.. raw:: html
+
+   <!---
+   Short description
+   --->
 
 **Example data citation:**
 
@@ -37,8 +47,20 @@ inputs prepared*
    Links to papers, SRA, etc. 
    --->
 
-Platform and tools
-------------------
+Downloads, access, and services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*In order to complete this tutorial you will need to have completed the
+following*
+
++----------------+---------------------+-----------------+
+| Prerequisite   | Preparation/Notes   | Link/Download   |
++================+=====================+=================+
+|                |                     |                 |
++----------------+---------------------+-----------------+
+
+Platform(s)
+~~~~~~~~~~~
 
 .. raw:: html
 
@@ -46,7 +68,7 @@ Platform and tools
    Keep only the relevant entries and delete the remaining
    --->
 
-**CyVerse Platform(s):**
+*We will use the following CyVerse Platform(s):*
 
 +-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
 | Platform                | Interface                                       | Link                                                                | Platform Documentation                                                                                      |
@@ -59,8 +81,24 @@ Platform and tools
 +-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
 | DNA Subway              | Web/Point-and-click                             | `DNA Subway <http://dnasubway.iplantcollaborative.org/>`__          | `Manual <http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf>`__                        |
 +-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
-| Agave API               | Command-line (API)                              | `Agave API <https://agaveapi.co>`__                                 | `Live Documentation <https://agaveapi.co>`__                                                                |
+| Agave API               | Command-line (API)                              | `Agave API <https://agaveapi.co>`__                                 | `Live Docs <https://agaveapi.co>`__                                                                         |
 +-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+
+--------------
+
+Overview
+--------
+
+.. raw:: html
+
+   <!---
+   Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
+   --->
+
+\|image 1\|
+
+Apps and Atmosphere images
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Discovery Environment App(s):**
 
@@ -83,20 +121,6 @@ Platform and tools
 +===============================+===========+========================================+================================================================+
 | CyVerse CentOS 6.8 GUI Base   | 1.0       | base image CentOS 6.8 with GNOME GUI   | `Image <https://atmo.cyverse.org/application/images/1384>`__   |
 +-------------------------------+-----------+----------------------------------------+----------------------------------------------------------------+
-
---------------
-
-Overview
---------
-
-.. raw:: html
-
-   <!---
-   Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
-   --->
-
-|image 1|
-
 
 Directions
 ----------
@@ -152,10 +176,9 @@ Subsection 1 name
    Steps and text go here
    --->
 
-| .. Hint::
-| You can insert reStructured text directives in the Markdown. The
-  formatting will have to be fixed later in the .rst document see `rst
-  docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
+.. Hint:: You can insert reStructured text directives in the Markdown.
+The formatting will have to be fixed later in the .rst document see `rst
+docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
 
 **Outputs:**
 
@@ -170,8 +193,7 @@ Subsection 1 name
 Subsection 2 name
 ~~~~~~~~~~~~~~~~~
 
-| **Task:**
-| 
+**Task:**
 
 **Inputs:**
 
@@ -200,8 +222,7 @@ Subsection 2 name
 Subsection 3 name
 ~~~~~~~~~~~~~~~~~
 
-| **Task:**
-| 
+**Task:**
 
 **Inputs:**
 
@@ -230,8 +251,7 @@ Subsection 3 name
 Subsection 4 name
 ~~~~~~~~~~~~~~~~~
 
-| **Task:**
-| 
+**Task:**
 
 **Inputs:**
 
@@ -275,10 +295,13 @@ FAQ
    Optional list of one or more FAQ questions
    --->
 
-#. **Question:**
-   a.
-#. **Question:**
-   a.
+1. **Question:**
+
+   a. 
+
+2. **Question:**
+
+   a. 
 
 More help/additional information
 --------------------------------
@@ -301,8 +324,8 @@ Fix or improve this tutorial
    Fix the Github link to a contribution-readme with instructions; verify mailto link
    --->
 
-| **Fix this tutorial on GitHub:** `GitHub <Link_to_gh_readme>`__
-| **Send a note to support:** Tutorials@CyVerse.org
+**Fix this tutorial on GitHub:** `GitHub <Link_to_gh_readme>`__ **Send a
+note to support:** Tutorials@CyVerse.org
 
 .. raw:: html
 
@@ -337,9 +360,5 @@ Fix or improve this tutorial
 
    --->
 
-.. |image 0| image:: ./img/cyverse_rgb.jpg
-	:width: 500
-	:height: 100
-.. |image 1| image:: ./img/workflow.png
-	:width: 150
-	:height: 500
+.. \|CyVerse logo\| image:: ./img/cyverse\_rgb.png :width: 500 :height:
+100
