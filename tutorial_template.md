@@ -1,8 +1,9 @@
-#Tutorial Name
+# Tutorial Name
 
+#### last update
 ---
 
-##Goal
+## Goal
 
 [//]: # ( Avoid covering upstream and downstream steps that are not explicitly and necessarily part of the tutorial - write or link to separate quick starts/tutorials for those parts)
 
@@ -25,7 +26,7 @@ Short description
 
 ---
 
-##Platform and tools
+## Platform and Tools
 
 [//]: # (comment: Keep only the relevant entries and delete the remaining)
 
@@ -55,7 +56,7 @@ Short description
 
 ---
 
-##Overview
+## Overview
 
 <!---
 Text and workflow image go here
@@ -68,6 +69,7 @@ Text and workflow image go here
 
 <!---
 
+[below inputs/outputs]
 Style recommendations for DE:
 
 1. Steps generally begin with a verb or preposition:
@@ -96,7 +98,7 @@ Style recommendations for DE:
 --->
 
 
-**Inputs outputs:**
+**Input(s):**
 
 |File|Description|Example input|
 |----|-----------|-------------|
@@ -106,7 +108,7 @@ Style recommendations for DE:
 Steps and text go here
 --->
 
-**Expected outputs:**
+**Expected output(s):**
 
 |File|Description|Example output|
 |----|-----------|--------------|
@@ -122,7 +124,7 @@ Steps and text go here
 --->
 
 
-**Inputs outputs:**
+**Input(s):**
 
 |File|Description|Example input|
 |----|-----------|-------------|
@@ -132,7 +134,7 @@ Steps and text go here
 Steps and text go here
 --->
 
-**Expected outputs:**
+**Expected output(s):**
 
 |File|Description|Example output|
 |----|-----------|--------------|
@@ -148,7 +150,7 @@ Steps and text go here
 --->
 
 
-**Inputs outputs:**
+**Input(s):**
 
 |File|Description|Example input|
 |----|-----------|-------------|
@@ -158,7 +160,7 @@ Steps and text go here
 Steps and text go here
 --->
 
-**Expected outputs:**
+**Expected outputs(s)**
 
 |File|Description|Example output|
 |----|-----------|--------------|
@@ -174,7 +176,7 @@ Steps and text go here
 --->
 
 
-**Inputs outputs:**
+**Input(s):**
 
 |File|Description|Example input|
 |----|-----------|-------------|
@@ -184,7 +186,7 @@ Steps and text go here
 Steps and text go here
 --->
 
-**Expected outputs:**
+**Expected output(s):**
 
 |File|Description|Example output|
 |----|-----------|--------------|
@@ -204,7 +206,11 @@ Summary and example figures
 
 ---
 
-##Additional background and reading
+## Additional background and reading
 
 Short description and links to any reading materials
 
+---
+## Contributors
+
+Names/contact of those who developed and maintained these materials:
