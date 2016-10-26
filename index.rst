@@ -1,4 +1,4 @@
-\|CyVerse logo\|
+|CyVerse logo|
 
 Tutorial Name
 =============
@@ -176,9 +176,10 @@ Subsection 1 name
    Steps and text go here
    --->
 
-.. Hint:: You can insert reStructured text directives in the Markdown.
-The formatting will have to be fixed later in the .rst document see `rst
-docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
+.. Hint:: 
+	You can insert reStructured text directives in the Markdown.
+	The formatting will have to be fixed later in the .rst document see `rst
+	docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
 
 **Outputs:**
 
@@ -360,5 +361,6 @@ note to support:** Tutorials@CyVerse.org
 
    --->
 
-.. \|CyVerse logo\| image:: ./img/cyverse\_rgb.png :width: 500 :height:
-100
+.. |CyVerse logo| image:: ./img/cyverse\_rgb.png 
+	:width: 500 
+	:height: 100
