@@ -95,7 +95,7 @@ Overview
    Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
    --->
 
-\|image 1\|
+|image 0|
 
 Apps and Atmosphere images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -361,6 +361,9 @@ note to support:** Tutorials@CyVerse.org
 
    --->
 
-.. |CyVerse logo| image:: ./img/cyverse\_rgb.png 
+.. |CyVerse logo| image:: ./img/cyverse_rgb.png 
 	:width: 500 
 	:height: 100
+.. |image 0| image:: ./img/workflow.png 
+	:width: 200 
+	:height: 500
