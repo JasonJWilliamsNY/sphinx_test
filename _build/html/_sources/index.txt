@@ -1,24 +1,25 @@
-.. image:: ./img/cyverse_rgb.jpg
-	:width: 500 px
-
+|image 0|
 
 Tutorial Name
 =============
 
-
-
 Goal
 ----
 
--  One-two sentences describing the ultimate goal of the steps in this
-   tutorial
+.. raw:: html
 
---------------
+   <!---
+   A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial
+   --->
 
 Prerequisites and example data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Short description
+.. raw:: html
+
+   <!---
+   Short description
+   --->
 
 *In order to complete this tutorial you will need to have the following
 inputs prepared*
@@ -26,88 +27,62 @@ inputs prepared*
 +-----------------+----------+---------------------+----------------+
 | Input file(s)   | Format   | Preparation/Notes   | Example data   |
 +=================+==========+=====================+================+
-|                 |          |                     |                |
 +-----------------+----------+---------------------+----------------+
 
 **Example data citation:**
 
---------------
+.. raw:: html
+
+   <!---
+   Links to papers, SRA, etc. 
+   --->
 
 Platform and tools
 ------------------
 
+.. raw:: html
+
+   <!---
+   Keep only the relevant entries and delete the remaining
+   --->
+
 **CyVerse Platform(s):**
 
-+-----------+------------+-------+-------------------------+
-| Platform  | Interface  | Link  | Platform Documentation  |
-+===========+============+=======+=========================+
-| Discovery | Web        | `http | `Manual <https://pods.i |
-| Environme | (Point-and | s://d | plantcollaborative.org/ |
-| nt        | -click)    | e.ipl | wiki/display/DEmanual/T |
-|           |            | antco | able+of+Contents>`__    |
-|           |            | llabo |                         |
-|           |            | rativ |                         |
-|           |            | e.org |                         |
-|           |            | /de/  |                         |
-|           |            | <http |                         |
-|           |            | s://d |                         |
-|           |            | e.ipl |                         |
-|           |            | antco |                         |
-|           |            | llabo |                         |
-|           |            | rativ |                         |
-|           |            | e.org |                         |
-|           |            | />`__ |                         |
-+-----------+------------+-------+-------------------------+
-| Atmospher | Command-li | [http | `Manual <https://pods.i |
-| e         | ne         | s://a | plantcollaborative.org/ |
-|           | AND/OR     | tmo.c | wiki/display/atmman/Atm |
-|           | VNC/Deskto | yvers | osphere+Manual+Table+of |
-|           | p          | e.org | +Contents>`__           |
-|           | (Point-and |       |                         |
-|           | -click)    |       |                         |
-+-----------+------------+-------+-------------------------+
-| BisQUE    | Web        | http: | `Manual <https://pods.i |
-|           | (Point-and | //bis | plantcollaborative.org/ |
-|           | -click)    | que.i | wiki/display/BIS/Using+ |
-|           | AND/OR     | plant | the+BisQue+Image+Analys |
-|           | Command-li | colla | is+System>`__           |
-|           | ne         | borat |                         |
-|           |            | ive.o |                         |
-|           |            | rg/cl |                         |
-|           |            | ient_ |                         |
-|           |            | servi |                         |
-|           |            | ce/   |                         |
-+-----------+------------+-------+-------------------------+
-| Agave API | Web,       | https | `Documentation          |
-|           | Command-li | ://ag | website <https://agavea |
-|           | ne         | aveap | pi.co/>`__              |
-|           |            | i.co/ |                         |
-+-----------+------------+-------+-------------------------+
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Platform                | Interface                                       | Link                                                                | Platform Documentation                                                                                      |
++=========================+=================================================+=====================================================================+=============================================================================================================+
+| Discovery Environment   | Web/Point-and-click                             | `Discovery Environment <https://de.iplantcollaborative.org>`__      | `Manual <https://pods.iplantcollaborative.org/wiki/display/DEmanual/Table+of+Contents>`__                   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Atmosphere              | Command-line (ssh) and/or Desktop (VNC)         | `Atmosphre <https://atmo.cyverse.org>`__                            | `Manual <https://pods.iplantcollaborative.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`__   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| BisQUE                  | Web/Point-and-click and/or Command-line (API)   | `BisQUE <http://bisque.iplantcollaborative.org/client_service>`__   | `Manual <https://pods.iplantcollaborative.org/wiki/display/BIS>`__                                          |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| DNA Subway              | Web/Point-and-click                             | `DNA Subway <http://dnasubway.iplantcollaborative.org/>`__          | `Manual <http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf>`__                        |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Agave API               | Command-line (API)                              | `Agave API <https://agaveapi.co>`__                                 | `Live Documentation <https://agaveapi.co>`__                                                                |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
 
 **Discovery Environment App(s):**
 
-+------------+-----------+-----------------------------+-----------------------------------------------------------------------------------------------------------+
-| App name   | Version   | Description                 | App Link                                                                                                  |
-+============+===========+=============================+===========================================================================================================+
-| Muscle     | 3.8.31    | Multiple sequence aligner   | `Link <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`__   |
-+------------+-----------+-----------------------------+-----------------------------------------------------------------------------------------------------------+
+.. raw:: html
+
+   <!---
+   inks to APPs in the DE are found by clicking the INFO button; App URL
+   --->
+
++------------+-----------+-----------------------------+----------------------------------------------------------------------------------------------------------+
+| App name   | Version   | Description                 | App Link                                                                                                 |
++============+===========+=============================+==========================================================================================================+
+| Muscle     | 3.8.31    | Multiple sequence aligner   | `App <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`__   |
++------------+-----------+-----------------------------+----------------------------------------------------------------------------------------------------------+
 
 **Atmosphere Image(s):**
 
-+-------------+----------+--------------+-------+
-| Image name  | Version  | Description  | Link  |
-+=============+==========+==============+=======+
-| CyVerse     | 1.0      | base image   | https |
-| CentOS 6.8  |          | for CentOS   | ://at |
-| GUI Base    |          | 6.8 with     | mo.cy |
-|             |          | GNOME GUI    | verse |
-|             |          | Desktop      | .org/ |
-|             |          |              | appli |
-|             |          |              | catio |
-|             |          |              | n/ima |
-|             |          |              | ges/1 |
-|             |          |              | 384   |
-+-------------+----------+--------------+-------+
++-------------------------------+-----------+----------------------------------------+----------------------------------------------------------------+
+| Image name                    | Version   | Description                            | Link                                                           |
++===============================+===========+========================================+================================================================+
+| CyVerse CentOS 6.8 GUI Base   | 1.0       | base image CentOS 6.8 with GNOME GUI   | `Image <https://atmo.cyverse.org/application/images/1384>`__   |
++-------------------------------+-----------+----------------------------------------+----------------------------------------------------------------+
 
 --------------
 
@@ -117,12 +92,11 @@ Overview
 .. raw:: html
 
    <!---
-   Text and workflow image go here
+   Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
    --->
-   
-.. image:: ./img/workflow.png
 
---------------
+|image 1|
+
 
 Directions
 ----------
@@ -154,16 +128,23 @@ Directions
 Subsection 1 name
 ~~~~~~~~~~~~~~~~~
 
-| **Task:**
-| 
+**Task:**
 
-**Inputs outputs:**
+.. raw:: html
 
-+--------+---------------+-----------------+
-| File   | Description   | Example input   |
-+========+===============+=================+
-|        |               |                 |
-+--------+---------------+-----------------+
+   <!---
+   1-2 sentence description of what happens here
+   --->
+
+**Inputs:**
+
++-------------------+------------------------------+-----------------+
+| File              | Description                  | Example input   |
++===================+==============================+=================+
+| file.extenstion   | .extension file (required)   |                 |
++-------------------+------------------------------+-----------------+
+|                   |                              |                 |
++-------------------+------------------------------+-----------------+
 
 .. raw:: html
 
@@ -171,7 +152,12 @@ Subsection 1 name
    Steps and text go here
    --->
 
-**Expected outputs:**
+| .. Hint::
+| You can insert reStructured text directives in the Markdown. The
+  formatting will have to be fixed later in the .rst document see `rst
+  docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
+
+**Outputs:**
 
 +--------+---------------+------------------+
 | File   | Description   | Example output   |
@@ -187,7 +173,7 @@ Subsection 2 name
 | **Task:**
 | 
 
-**Inputs outputs:**
+**Inputs:**
 
 +--------+---------------+-----------------+
 | File   | Description   | Example input   |
@@ -201,7 +187,7 @@ Subsection 2 name
    Steps and text go here
    --->
 
-**Expected outputs:**
+**Outputs:**
 
 +--------+---------------+------------------+
 | File   | Description   | Example output   |
@@ -217,7 +203,7 @@ Subsection 3 name
 | **Task:**
 | 
 
-**Inputs outputs:**
+**Inputs:**
 
 +--------+---------------+-----------------+
 | File   | Description   | Example input   |
@@ -231,7 +217,7 @@ Subsection 3 name
    Steps and text go here
    --->
 
-**Expected outputs:**
+**Outputs:**
 
 +--------+---------------+------------------+
 | File   | Description   | Example output   |
@@ -247,7 +233,7 @@ Subsection 4 name
 | **Task:**
 | 
 
-**Inputs outputs:**
+**Inputs:**
 
 +--------+---------------+-----------------+
 | File   | Description   | Example input   |
@@ -261,15 +247,13 @@ Subsection 4 name
    Steps and text go here
    --->
 
-**Expected outputs:**
+**Outputs:**
 
 +--------+---------------+------------------+
 | File   | Description   | Example output   |
 +========+===============+==================+
 |        |               |                  |
 +--------+---------------+------------------+
-
---------------
 
 Summary
 -------
@@ -282,9 +266,80 @@ Summary
 
 **Next Steps:**
 
---------------
+FAQ
+---
 
-Additional background and reading
----------------------------------
+.. raw:: html
 
-Short description and links to any reading materials
+   <!---
+   Optional list of one or more FAQ questions
+   --->
+
+#. **Question:**
+   a.
+#. **Question:**
+   a.
+
+More help/additional information
+--------------------------------
+
+.. raw:: html
+
+   <!---
+   Short description and links to any reading materials
+   --->
+
+**Post your question to the user forum:** `Ask
+CyVerse <http://ask.iplantcollaborative.org/questions/>`__
+
+Fix or improve this tutorial
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <!---
+   Fix the Github link to a contribution-readme with instructions; verify mailto link
+   --->
+
+| **Fix this tutorial on GitHub:** `GitHub <Link_to_gh_readme>`__
+| **Send a note to support:** Tutorials@CyVerse.org
+
+.. raw:: html
+
+   <!---
+
+   SAMPLE DIRECTIVES (DELETE UNSUED ONES)
+   --------------------------------------
+
+   See: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
+
+   .. Danger::
+       This step is dangerous
+
+   .. Important::
+       This step is important
+       
+   .. Caution::
+       Exercise caution
+       
+   .. Hint::
+       This is a hint
+
+   .. Important::
+       This is very important
+
+   .. note:: This is a note admonition.
+      This is the second line of the first paragraph.
+
+      - The note contains all indented body elements
+        following.
+      - It includes this bullet list.
+
+   --->
+
+.. |image 0| image:: ./img/cyverse_rgb.jpg
+	:width: 500
+	:height: 100
+.. |image 1| image:: ./img/workflow.png
+	:width: 150
+	:height: 500
