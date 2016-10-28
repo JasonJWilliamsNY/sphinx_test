@@ -367,3 +367,5 @@ note to support:** Tutorials@CyVerse.org
 .. |image 0| image:: ./img/workflow.png 
 	:width: 200 
 	:height: 500
+
+<iframe src="https://docs.google.com/presentation/d/1XfKjwXIb9_0agLLGsEyZ_0dQXEnJtmhGz0uiTE4XOI8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
