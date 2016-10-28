@@ -1,4 +1,4 @@
-\|CyVerse logo\|
+|CyVerse logo|
 
 Tutorial Name
 =============
@@ -95,7 +95,7 @@ Overview
    Text and workflow image go here. Using reStructured text we can place a link to an image in pipes (label images 'image n' starting with n=0). At the end of the document add the image names, links, and parameters. 
    --->
 
-\|image 1\|
+|image 0|
 
 Apps and Atmosphere images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,9 +176,10 @@ Subsection 1 name
    Steps and text go here
    --->
 
-.. Hint:: You can insert reStructured text directives in the Markdown.
-The formatting will have to be fixed later in the .rst document see `rst
-docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
+.. Hint:: 
+	You can insert reStructured text directives in the Markdown.
+	The formatting will have to be fixed later in the .rst document see `rst
+	docs <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`__
 
 **Outputs:**
 
@@ -360,5 +361,11 @@ note to support:** Tutorials@CyVerse.org
 
    --->
 
-.. \|CyVerse logo\| image:: ./img/cyverse\_rgb.png :width: 500 :height:
-100
+.. |CyVerse logo| image:: ./img/cyverse_rgb.png 
+	:width: 500 
+	:height: 100
+.. |image 0| image:: ./img/workflow.png 
+	:width: 200 
+	:height: 500
+
+<iframe src="https://docs.google.com/presentation/d/1XfKjwXIb9_0agLLGsEyZ_0dQXEnJtmhGz0uiTE4XOI8/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
