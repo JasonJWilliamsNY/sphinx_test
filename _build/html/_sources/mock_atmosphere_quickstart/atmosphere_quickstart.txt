@@ -1,0 +1,364 @@
+.. toc::
+	:maxdepth: 2
+	:any:
+
+.. raw:: html
+
+   <!---
+
+   Images can be added in-line as a reStructured text substitution, but will not render in Markdown. See reStructured text example. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+
+   |CyVerse logo|
+
+   --->
+
+Tutorial name
+=============
+
+
+
+
+.. raw:: html
+
+   <!---
+   Use short, imperative titles e.g. Upload and share data, uploading and sharing data
+   --->
+
+Goal
+----
+
+.. raw:: html
+
+   <!---
+   Avoid covering upstream and downstream steps that are not explicitly and necessarily part of the tutorial - write or link to separate quick starts/tutorials for those steps.
+   --->
+
+.. raw:: html
+
+   <!---
+   A few sentences (50 words or less) describing the ultimate goal of the steps in this tutorial.
+   --->
+
+Prerequisites
+-------------
+
+.. raw:: html
+
+   <!---
+   Insert short description
+   --->
+
+Input and example data
+~~~~~~~~~~~~~~~~~~~~~~
+
+*In order to complete this tutorial you will need to have the following
+inputs prepared*
+
++-----------------+----------+---------------------+----------------+
+| Input File(s)   | Format   | Preparation/Notes   | Example Data   |
++=================+==========+=====================+================+
++-----------------+----------+---------------------+----------------+
+
+.. raw:: html
+
+   <!---
+   Insert short description
+   --->
+
+.. raw:: html
+
+   <!---
+   *You may find the following tutorials useful for completing this one:*
+
+   |Related tutorial|Description|Link|
+   |----------------|-----------|----|
+   |Name|Description|[Link]()|
+   |||
+   --->
+
+.. raw:: html
+
+   <!---
+   **Example data citation:**
+
+   Links to papers, SRA, etc. 
+   --->
+
+Downloads, access, and services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*In order to complete this tutorial you may also need:*
+
++--------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| Prerequisite       | Preparation/Notes                                                        | Link/Download                                                                                                                                    |
++====================+==========================================================================+==================================================================================================================================================+
+| Reference genome   | Provide your own genome in FASTA format or use CyVerse provided genome   | `Supported CyVerse Genomes <http://datacommons.cyverse.org/browse/iplant/home/shared/iplantcollaborative/genomeservices/builds/1.0.0/24_77>`__   |
++--------------------+--------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Platform(s)
+~~~~~~~~~~~
+
+.. raw:: html
+
+   <!---
+   Keep only the relevant entries and delete/hide the remaining
+   --->
+
+*We will use the following CyVerse platform(s):*
+
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+| Platform                | Interface                                       | Link                                                                | Platform Documentation                                                                          | Quick Start          |
++=========================+=================================================+=====================================================================+=================================================================================================+======================+
+| Discovery Environment   | Web/Point-and-click                             | `Discovery Environment <https://de.iplantcollaborative.org>`__      | `Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`__                   | `Quick Start <>`__   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+| Atmosphere              | Command-line (ssh) and/or Desktop (VNC)         | `Atmosphere <https://atmo.cyverse.org>`__                           | `Manual <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`__   | `Quick Start <>`__   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+| BisQue                  | Web/Point-and-click and/or Command-line (API)   | `BisQue <http://bisque.iplantcollaborative.org/client_service>`__   | `Manual <https://wiki.cyverse.org/wiki/display/BIS>`__                                          | `Quick Start <>`__   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+| DNA Subway              | Web/Point-and-click                             | `DNA Subway <http://dnasubway.iplantcollaborative.org/>`__          | `Manual <http://dnasubway.iplantcollaborative.org/files/pdf/DNA_Subway_Guide.pdf>`__            | `Quick Start <>`__   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+| Agave API               | Command-line (API)                              | `Agave API <https://agaveapi.co>`__                                 | `Live Docs <https://agaveapi.co>`__                                                             | `Quick Start <>`__   |
++-------------------------+-------------------------------------------------+---------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+----------------------+
+
+--------------
+
+Overview
+--------
+
+.. raw:: html
+
+   <!---
+   Text and workflow image go here. Using reStructured text, we can place a link to an image in pipe form (label images 'image n' with n=0 being image 0 and so on). At the end of the document add the image names, links, and parameters. 
+   --->
+
+.. raw:: html
+
+   <!---
+
+   Images can be added in-line as a reStructured text substitution, but will not render in Markdown. See reStructured text example here. http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#substitution-definitions
+
+   |image 0|
+
+   --->
+
+Apps and atmosphere images
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Discovery Environment App(s):**
+
+.. raw:: html
+
+   <!---
+   Links to Apps in the DE which are found by clicking the INFO button; select and copy App URL. Use DOI links if available, otherwise link to github docker image (See: https://github.com/iPlantCollaborativeOpenSource/docker-builds). 
+   --->
+
++------------+-----------+-----------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
+| App name   | Version   | Description                 | App Link                                                                                                 | Docker/DOI Link   |
++============+===========+=============================+==========================================================================================================+===================+
+| Muscle     | 3.8.31    | Multiple sequence aligner   | `App <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`__   |                   |
++------------+-----------+-----------------------------+----------------------------------------------------------------------------------------------------------+-------------------+
+
+**Atmosphere Image(s):**
+
++-------------------------------+-----------+----------------------------------------+----------------------------------------------------------------+-------------------+
+| Image name                    | Version   | Description                            | Link                                                           | Docker/DOI Link   |
++===============================+===========+========================================+================================================================+===================+
+| CyVerse CentOS 6.8 GUI Base   | 1.0       | base image CentOS 6.8 with GNOME GUI   | `Image <https://atmo.cyverse.org/application/images/1384>`__   |                   |
++-------------------------------+-----------+----------------------------------------+----------------------------------------------------------------+-------------------+
+
+Directions
+----------
+
+.. raw:: html
+
+   <!---
+
+   Style recommendations for DE:
+
+   1. Steps generally begin with a verb or preposition:
+
+       "Click on the XXXX button" OR  "Under the 'Results Menu'"
+
+   2. Locations parenthetical and separated by carets. Locations not preceded by (semi)colons don't use parenthesis. (optional: ultimate object in bold):
+
+       "(Username > analyses > output)" OR "Output is located at: Username >                 
+       analyses > **output**"
+       
+   3. Buttons and key words in bold:
+       "Click on **Apps**" or "Select **Arabidopsis**"
+
+   4. App accordion menu titles in double quotes " "
+
+   5. App header description in single quotes ' '
+
+   --->
+
+Subsection 1 name
+~~~~~~~~~~~~~~~~~
+
+**Task:**
+
+.. raw:: html
+
+   <!---
+   1-2 sentence description of what happens here
+   --->
+
+**Input(s):**
+
++-------------------+------------------------------+--------------------+
+| File              | Description                  | Example input(s)   |
++===================+==============================+====================+
+| file.extenstion   | .extension file (required)   |                    |
++-------------------+------------------------------+--------------------+
++-------------------+------------------------------+--------------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+.. raw:: html
+
+   <!---
+   .. Hint::
+       You can insert reStructured text directives in the Markdown. The formatting will have to be fixed later in the .rst document see [rst docs](http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions)
+   --->
+
+**Output(s):**
+
++--------+---------------+---------------------+
+| File   | Description   | Example output(s)   |
++========+===============+=====================+
++--------+---------------+---------------------+
+
+--------------
+
+Subsection 2 name
+~~~~~~~~~~~~~~~~~
+
+**Task:**
+
+**Input(s):**
+
++--------+---------------+--------------------+
+| File   | Description   | Example input(s)   |
++========+===============+====================+
++--------+---------------+--------------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+**Output(s):**
+
++--------+---------------+---------------------+
+| File   | Description   | Example output(s)   |
++========+===============+=====================+
++--------+---------------+---------------------+
+
+--------------
+
+Subsection 3 name
+~~~~~~~~~~~~~~~~~
+
+**Task:**
+
+**Input(s):**
+
++--------+---------------+--------------------+
+| File   | Description   | Example input(s)   |
++========+===============+====================+
++--------+---------------+--------------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+**Output(s):**
+
++--------+---------------+---------------------+
+| File   | Description   | Example output(s)   |
++========+===============+=====================+
++--------+---------------+---------------------+
+
+--------------
+
+Subsection 4 name
+~~~~~~~~~~~~~~~~~
+
+**Task:**
+
+**Input(s):**
+
++--------+---------------+--------------------+
+| File   | Description   | Example input(s)   |
++========+===============+====================+
++--------+---------------+--------------------+
+
+.. raw:: html
+
+   <!---
+   Steps and text go here
+   --->
+
+**Outputs:**
+
++--------+---------------+---------------------+
+| File   | Description   | Example output(s)   |
++========+===============+=====================+
++--------+---------------+---------------------+
+
+Summary
+-------
+
+.. raw:: html
+
+   <!---
+   Summary and example figures
+   --->
+
+**Next Steps:**
+
+FAQ
+---
+
+.. raw:: html
+
+   <!---
+   Optional list of one or more FAQ questions
+   --->
+
+1. **Question:**
+
+   a. 
+
+2. **Question:**
+
+   a. 
+
+More help/additional information
+--------------------------------
+
+.. raw:: html
+
+   <!---
+   Short description and links to any reading materials
+   --->
+
+-  **Search for an answer:** `CyVerse Learning
+   Center <http://www.cyverse.org/learning-center>`__ or `CyVerse
+   Wiki <https://wiki.cyverse.org/wiki/dashboard.action>`__
+-  **Post your question to the user forum:** `Ask
+   CyVerse <http://ask.iplantcollaborative.org/questions/>`__
+
+Fix or improve this tutorial
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Fix this tutorial on GitHub:** `GitHub <Link_to_gh_readme>`__
+-  **Send a note:** Tutorials@CyVerse.org

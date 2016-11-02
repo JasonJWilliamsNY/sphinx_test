@@ -1,13 +1,15 @@
+.. toctree::
+	:maxdepth: 1
+		
+	mock_atmosphere_quickstart/atmosphere_quickstart.rst
+		
+		
 |CyVerse logo|
 
+
+		
 Tutorial Name
 =============
-
-.. toctree::
-   :maxdepth: 2
-   
-	mock_amosphere_quickstart/index.rst
-
 
 
 Goal
