@@ -4,7 +4,9 @@ Tutorial Name
 =============
 
 .. toctree::
-	./mock_amosphere_quickstart/index.rst
+   :maxdepth: 2
+   
+	mock_amosphere_quickstart/index.rst
 
 
 
