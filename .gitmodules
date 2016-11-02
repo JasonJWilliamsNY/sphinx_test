@@ -1,0 +1,3 @@
+[submodule "mock_atmosphere_quickstart"]
+	path = mock_atmosphere_quickstart
+	url = https://github.com/JasonJWilliamsNY/mock_atmosphere_quickstart.git

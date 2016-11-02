@@ -4,8 +4,8 @@ Tutorial Name
 =============
 
 .. toctree::
-	./quick_starts
-	./tutorials
+	./quick_starts/atmosphere_quickstart/index
+	./tutorials/amosphere_tutorial/index
 
 
 
